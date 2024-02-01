@@ -1,0 +1,26 @@
+// Portfolio Modal 1
+#portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal1', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Kunjungan Industri ke PT INSABA
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/saba.jpg', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Pada kegiatan ini, terlaksananya Kunjungan Indutri yang membahas mengenai Solusi Saba Framework dalam Pengembangan Perangkat Lunak yang dijelaskan secara langsung oleh Pemimpin PT. INSABA, tak lupa juga dihadiri oleh 15 orang peserta dari Mahasiswa Teknik Informatika Universitas Kebangsaan Republik Indonesia, dan di bimbing oleh salah satu Dosen Teknik Informatika yaitu Bapak Alkautsar Rahman S.T., M.T. Saba Framework sendiri ialah sebuah Perangkat Lunak semi CMS (Content Management System) buatan PT. INSABA berbasis WEB yang mudah untuk digunakan oleh User. Saba Framework juga dilengkapi dengan tampilan Front-end dan juga Back-end, tidak hanya itu ada banyak fitur utama yang dimiliki oleh Saba Framework yaitu diantaranya : Menyediakan fitur Developer mode, menggunakan Bahasa JSON, tampilannya modern dan Mobile Friendly, mendukung berbagai Database, sudah menggunakan Manajemen state, Generate CRUD hanya membutuhkan 5 baris, sistem Otentikasi dan Keamanan, Manajemen user, Data dapat ditampilkan dalam beberapa bentuk, Arsitecture Microservice dan masih banyak lagi fitur-fitur unggul yang dimiliki oleh PT. INSABA
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window
